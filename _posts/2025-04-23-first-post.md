@@ -1,7 +1,6 @@
 ---
 title: "First post: reference for github blog"
-date: 2025-04-23 16:54:00 -0400
-categories: Git
+layout: post
 ---
 
 ### list
