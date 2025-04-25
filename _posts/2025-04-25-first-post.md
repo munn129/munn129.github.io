@@ -1,9 +1,10 @@
 ---
 title: "First post: reference for github blog"
 layout: post
+categories: Git
 ---
 
-### list
+### reference list
 
 using theme: https://github.com/mmistakes/minimal-mistakes
 documents posting: https://jekyllrb.com/docs/posts/
