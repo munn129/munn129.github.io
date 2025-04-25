@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "G.Y. Mun's blog"
+title                    : "G.Y. Mun's Tech Arhive"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "G.Y. Mun"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "G.Y. Mun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Vision Developer"
+  bio              : "Computer Vision Engineer"
   location         : "Incheon, Korea."
   email            :
   links:
