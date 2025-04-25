@@ -1,6 +1,7 @@
 ---
 title: "First post: reference for github blog"
 layout: post
+categories: Git
 ---
 
 ### reference list
