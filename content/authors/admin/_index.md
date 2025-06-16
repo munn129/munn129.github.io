@@ -45,7 +45,7 @@ education:
     date_start: 2023-02-27
     date_end: 2025-02-14
     summary: |
-      GPA: 4.13/4.5
+      GPA: 4.13/4.5  
       Honor: INSTAR scholarship(Full Tuition Covered)
 
       학위 논문 주제: 다 방향에서 촬영된 이미지의 retrieval을 이용한 visual localization
