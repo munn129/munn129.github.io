@@ -32,7 +32,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'ans92175@gmail.com'
+    url: 'mailto:ans92175@gmail.com'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/munn129
@@ -41,37 +41,36 @@ profiles:
 
 education:
   - area: M.S. in Electrical and Computer Engineering
-  at Inha University, Incheon, Korea.
-  date_start: 2023-02-27
-  date_end: 2025-02-14
-  summary: |
-    GPA: 4.13/4.5
-    Honor: INSTAR scholarship(Full Tuition Covered)
+    institution: Inha University, Incheon, Korea
+    date_start: 2023-02-27
+    date_end: 2025-02-14
+    summary: |
+      GPA: 4.13/4.5
+      Honor: INSTAR scholarship(Full Tuition Covered)
 
-    학위 논문 주제: 다 방향에서 촬영된 이미지의 retrieval을 이용한 visual localization
+      학위 논문 주제: 다 방향에서 촬영된 이미지의 retrieval을 이용한 visual localization
     button:
       text: 'Read Thesis'
       url: 'https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=d2bf29d7ce6b45b3ffe0bdc3ef48d419&keyword=%EB%AC%B8%EA%B8%B0%EC%98%81'
-  
-    Courses included:
+    courses:
       - 미래형자동차전공과정
 
   - area: B.S in Automation Engineering
-  at DongYangMiRae University, Seoul, Korea.
-  date_start: 2022-03-01
-  date_end: 2023-02-17
-  summary: |
-    GPA: 4.5/4.5 (Top 1)
+    institution: DongYangMiRae University, Seoul, Korea
+    date_start: 2022-03-01
+    date_end: 2023-02-17
+    summary: |
+      GPA: 4.5/4.5 (Top 1)
 
-  -area: A.S. in Robotics
-  at DongYangMiRae University, Seoul, Korea.
-  date_start: 2017-03-01
-  date_end: 2022-02-18
-  summary: |
-    GPA: 4.25/4.5 (Top 2)
+  - area: A.S. in Robotics
+    institution: DongYangMiRae University, Seoul, Korea
+    date_start: 2017-03-01
+    date_end: 2022-02-18
+    summary: |
+      GPA: 4.25/4.5 (Top 2)
 
 work:
-  - position: Assitant Resercher of Machine Vision
+  - position: Assistant Researcher of Machine Vision
     company_name: ''
     company_url: ''
     company_logo: ''
@@ -79,7 +78,7 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - Vision algorithm acceration with CUDA
+      - Vision algorithm acceleration with CUDA
       - Electrical and H/W configuration with Frame Grabber
 
 # Skills
@@ -156,4 +155,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Assistant Resercher of Machine Vision company.
+I am currently Assistant Researcher of Machine Vision company.
