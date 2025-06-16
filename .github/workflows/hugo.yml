@@ -27,7 +27,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.136.5'
           extended: true
       - name: Build with Hugo
         run: |
@@ -35,8 +35,8 @@ jobs:
           rm -rf public
           rm -rf resources
           
-          # 심볼릭 링크 제거
-          find . -type l -delete
+          # Hugo 버전 확인
+          hugo version
           
           # Hugo 빌드 (디버그 모드 활성화)
           hugo --minify --gc --debug
