@@ -35,11 +35,8 @@ jobs:
           rm -rf public
           rm -rf resources
           
-          # Hugo 버전 확인
-          hugo version
-          
-          # Hugo 빌드 (디버그 모드 활성화)
-          hugo --minify --gc --debug
+          # Hugo 빌드
+          hugo --minify
           
           # 빌드 결과 확인
           echo "=== Build directory contents ==="
@@ -47,49 +44,8 @@ jobs:
           echo "=== Build size ==="
           du -sh public
           
-          # 심볼릭 링크 확인
-          echo "=== Checking for symlinks ==="
-          find public -type l
-          
-          # 하드 링크 확인
-          echo "=== Checking for hard links ==="
-          find public -type f -links +1
-          
-          # 불필요한 파일 제거
-          find public -type f -name "*.map" -delete
-          find public -type f -name "*.DS_Store" -delete
-          find public -type f -name "*.git*" -delete
-          
-          # 최종 크기 확인
-          echo "=== Final size ==="
-          du -sh public
-          
-          # 아티팩트 준비
-          cd public
-          tar -czf ../site.tar.gz .
-          cd ..
-          
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: site.tar.gz
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-      - name: Extract site
-        run: |
-          mkdir -p public
-          tar -xzf site.tar.gz -C public
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
+          branch: gh-pages 
