@@ -56,14 +56,14 @@ education:
       - 미래형자동차전공과정
 
   - area: B.S in Automation Engineering
-    institution: DongYangMiRae University, Seoul, Korea
+    institution: Dongyangmirae University, Seoul, Korea
     date_start: 2022-03-01
     date_end: 2023-02-17
     summary: |
       GPA: 4.5/4.5 (Top 1)
 
   - area: A.S. in Robotics
-    institution: DongYangMiRae University, Seoul, Korea
+    institution: Dongyangmirae University, Seoul, Korea
     date_start: 2017-03-01
     date_end: 2022-02-18
     summary: |
@@ -76,7 +76,7 @@ work:
     company_logo: ''
     date_start: 2025-03-01
     date_end: ''
-    summary: |2-
+    summary: |
       Responsibilities include:
       - Vision algorithm acceleration with CUDA
       - Electrical and H/W configuration with Frame Grabber
