@@ -84,36 +84,90 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Skills
+    color: '#3498db'
+    color_border: '#2980b9'
     items:
       - name: Python
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: C
         description: ''
         percent: 80
-        icon: camera
+        icon: devicon/c
+      - name: C++
+        description: ''
+        percent: 80
+        icon: devicon/cplusplus
+      - name: Latex
+        description: ''
+        percent: 70
+        icon: devicon/latex
+      - name: Dart
+        description: ''
+        percent: 50
+        icon: devicon/dart
+      - name: Java
+        description: ''
+        percent: 50
+        icon: devicon/java
+  - name: Tools
+    color: '#7f8c8d'
+    color_border: '#95a5a6'
+    items:
+      - name: Arduino
+        description: ''
+        percent: 90
+        icon: devicon/arduino
+      - name: Raspberry Pi
+        description: ''
+        percent: 90
+        icon: devicon/raspberrypi
+      - name: Pythorch
+        description: ''
+        percent: 80
+        icon: devicon/pytorch
+      - name: OpenCV
+        description: ''
+        percent: 80
+        icon: devicon/opencv
+      - name: Docker
+        description: ''
+        percent: 70
+        icon: devicon/docker
+      - name: Anaconda
+        description: ''
+        percent: 70
+        icon: devicon/anaconda
+  - name: Environments
+    color: '#27ae60'
+    color_border: '#2ecc71'
+    items:
+      - name: VSCode
+        description: ''
+        percent: 90
+        icon: devicon/vscode
+      - name: Linux
+        description: ''
+        percent: 80
+        icon: devicon/linux
+      - name: Ubuntu
+        description: ''
+        percent: 80
+        icon: devicon/ubuntu
+      - name: Visual Studio
+        description: ''
+        percent: 80
+        icon: devicon/visualstudio
+      - name: Android Studio
+        description: ''
+        percent: 70
+        icon: devicon/androidstudio
+      - name: Flutter
+        description: ''
+        percent: 50
+        icon: devicon/flutter
 
 languages:
   - name: Korean
