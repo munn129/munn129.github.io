@@ -38,6 +38,9 @@ profiles:
     url: https://github.com/munn129
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/%EA%B8%B0%EC%98%81-%EB%AC%B8-1b0726194/
+  - icon: newspaper
+    url: https://coder-on-the-moon.tistory.com/
+    label: Blog
 
 education:
   - area: M.S. in Electrical and Computer Engineering
