@@ -188,38 +188,32 @@ awards:
   - title: 24년 대학생 자율주행 경진대회 준우승
     date: '2024-10-01'
     awarder: 산업통상자원부
-    icon: trophy
     summary: |
       대구 KIAPI 고속주회로에서 다른 팀보다 빠르게 자율주행하는 경진대회에서 준우승을 차지했습니다.
       Visual localization 및 RTK/GNSS 담당으로 참여했습니다.
   - title: 창의적 종합설계 경진대회 특별상
     date: '2020-11-01'
     awarder: 산업통상자원부
-    icon: star
     summary: |
       공학 기술을 통한 사회적 문제 해결 프로젝트로 특별상을 수상했습니다.
   - title: 제 7회 ICT 스마트디바이스 전국 공모전 우수상
     date: '2020-09-01'
     awarder: 과학기술정보통신부
-    icon: medal
     summary: |
       ICT 스마트디바이스 분야에서 우수한 성과를 인정받아 우수상을 수상했습니다.
   - title: 제 5회 정밀공학 창의경진대회 장려상
     date: '2020-09-01'
     awarder: 한국정밀공학회
-    icon: certificate
     summary: |
       정밀공학 분야의 창의적인 아이디어와 기술력을 인정받아 장려상을 수상했습니다.
   - title: 기술창업 아이디어 경진대회 우수상
     date: '2021-06-01'
     awarder: 동양미래대학교
-    icon: lightbulb
     summary: |
       대학교 내 기술창업 아이디어 경진대회에서 우수상을 수상했습니다.
   - title: 캡스톤 디자인 경진대회 최우수상
     date: '2021-02-01'
     awarder: 동양미래대학교
-    icon: award
     summary: |
       캡스톤 디자인 프로젝트에서 최우수상을 수상했습니다.
 ---
