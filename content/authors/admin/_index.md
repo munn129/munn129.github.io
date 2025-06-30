@@ -195,7 +195,7 @@ awards:
   - title: 창의적 종합설계 경진대회 특별상
     date: '2020-11-01'
     awarder: 산업통상자원부
-    icon: award
+    icon: star
     summary: |
       공학 기술을 통한 사회적 문제 해결 프로젝트로 특별상을 수상했습니다.
   - title: 제 7회 ICT 스마트디바이스 전국 공모전 우수상
@@ -219,7 +219,7 @@ awards:
   - title: 캡스톤 디자인 경진대회 최우수상
     date: '2021-02-01'
     awarder: 동양미래대학교
-    icon: star
+    icon: award
     summary: |
       캡스톤 디자인 프로젝트에서 최우수상을 수상했습니다.
 ---
