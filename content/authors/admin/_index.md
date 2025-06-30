@@ -116,8 +116,8 @@ work:
       
       **한국자동차공학회 추계학술대회** - 단안 카메라 기반 주행기록계 오차 보정을 위한 확률적 경로 예측 및 보정 모델
 
-  - position: Patent Application
-    company_name: 'Intellectual Property'
+  - position: Patent
+    company_name: ''
     company_url: ''
     company_logo: ''
     date_start: 2024-11-19
