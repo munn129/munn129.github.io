@@ -185,31 +185,43 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 24년 대학생 자율주행 경진대회 준우승
+    date: '2024-10-01'
+    awarder: 산업통상자원부
+    icon: trophy
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network's architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      대구 KIAPI 고속주회로에서 다른 팀보다 빠르게 자율주행하는 경진대회에서 준우승을 차지했습니다.
+      Visual localization 및 RTK/GNSS 담당으로 참여했습니다.
+  - title: 창의적 종합설계 경진대회 특별상
+    date: '2020-11-01'
+    awarder: 산업통상자원부
+    icon: award
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin's real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin's Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      공학 기술을 통한 사회적 문제 해결 프로젝트로 특별상을 수상했습니다.
+  - title: 제 7회 ICT 스마트디바이스 전국 공모전 우수상
+    date: '2020-09-01'
+    awarder: 과학기술정보통신부
+    icon: medal
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      ICT 스마트디바이스 분야에서 우수한 성과를 인정받아 우수상을 수상했습니다.
+  - title: 제 5회 정밀공학 창의경진대회 장려상
+    date: '2020-09-01'
+    awarder: 한국정밀공학회
+    icon: certificate
+    summary: |
+      정밀공학 분야의 창의적인 아이디어와 기술력을 인정받아 장려상을 수상했습니다.
+  - title: 기술창업 아이디어 경진대회 우수상
+    date: '2021-06-01'
+    awarder: 동양미래대학교
+    icon: lightbulb
+    summary: |
+      대학교 내 기술창업 아이디어 경진대회에서 우수상을 수상했습니다.
+  - title: 캡스톤 디자인 경진대회 최우수상
+    date: '2021-02-01'
+    awarder: 동양미래대학교
+    icon: star
+    summary: |
+      캡스톤 디자인 프로젝트에서 최우수상을 수상했습니다.
 ---
 
 I am currently Assistant Researcher of Machine Vision company.
